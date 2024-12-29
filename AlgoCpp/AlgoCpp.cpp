@@ -38,7 +38,7 @@ int main() {
 	cout << endl;
 	
 	vector<int> bsorted(array);
-	bsorted = bubblesort(bsorted, bsorted.size());
+	bubblesort(bsorted, bsorted.size());
 
 	cout << "bsorted_array bubble: ";
 	for (int n : bsorted)

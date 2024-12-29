@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 
-std::vector<int> bubblesort(std::vector<int> &list, int array_length) {
+void bubblesort(std::vector<int> &list, int array_length) {
 
 	//Bubble sort compares two members, A and B. If A > B, the members are swapped. Continue until the list is sorted.
 
@@ -19,8 +19,5 @@ std::vector<int> bubblesort(std::vector<int> &list, int array_length) {
 		}
 
 	}
-
-
-	return list;
 }
 

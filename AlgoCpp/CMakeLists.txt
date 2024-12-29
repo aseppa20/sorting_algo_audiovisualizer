@@ -12,7 +12,7 @@ endif()
 project ("AlgoCpp")
 
 # Add source to this project's executable.
-add_executable (AlgoCpp "AlgoCpp.cpp" "AlgoCpp.h"  "algos/bubblesort.h" "algos/heapsort.h")
+add_executable (AlgoCpp "AlgoCpp.cpp" "AlgoCpp.h"  "algos/bubblesort.h" "algos/heapsort.h" "algos/quicksort.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET AlgoCpp PROPERTY CXX_STANDARD 20)
